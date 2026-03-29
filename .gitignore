@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# API Keys and Environment Variables
+.env
+.env.local
+
+# LangGraph Checks/DB
+.langgraph/
+*.db
+
+# Output and Logs
+output.txt
+eval_results.txt
+eval_results.json
+*.log
