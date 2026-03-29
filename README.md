@@ -1,6 +1,12 @@
-# LangGraph Travel Planner Agent
+# 🌍 AI Travel Planner Agent
 
-A production-grade, multi-node LangGraph agent that takes a travel destination and produces a fully detailed, dynamic day-by-day itinerary.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![LangGraph](https://img.shields.io/badge/LangGraph-00C4B6?style=for-the-badge&logo=langchain&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
+[![Live Demo](https://img.shields.io/badge/🟢_Play_Live_Demo-Streamlit_Cloud-success?style=for-the-badge)](https://travel-planner-agent-1.streamlit.app/)
+
+A production-grade, multi-node **LangGraph** agent that takes a travel destination and produces a fully detailed, dynamic day-by-day itinerary. Deployed via Streamlit Community Cloud.
 
 ---
 
@@ -141,3 +147,11 @@ while True:
         break
 ```
 This pattern allows LangGraph to maintain strict backend checkpointing while giving the Streamlit frontend a smooth, unbroken loading experience.
+
+---
+
+## 🌟 Support & Contributions
+
+If you find this project helpful or plan to use it as a template for your own Agentic workflows, **please consider leaving a star (⭐️) on this repository!** It helps others discover this project.
+
+Contributions, issues, and feature requests are welcome. Feel free to check the issues page if you want to contribute.
