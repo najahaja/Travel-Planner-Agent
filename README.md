@@ -50,12 +50,21 @@ START
 
 ## Getting Started
 
-### 1. Requirements
+### 1. Setup & Installation
 
-Install python packages within your virtual environment:
+Clone the repository and install the dependencies from `requirements.txt`:
 
 ```powershell
-pip install langgraph langchain-groq langchain-community tavily-python python-dotenv
+# 1. Clone the repo
+git clone https://github.com/najahaja/Travel-Planner-Agent.git
+cd Travel-Planner-Agent
+
+# 2. Create and activate a Virtual Environment (Recommended on Windows)
+python -m venv venv
+.\venv\Scripts\activate
+
+# 3. Install all dependencies
+pip install -r requirements.txt
 ```
 
 ### 2. Configure API Keys
